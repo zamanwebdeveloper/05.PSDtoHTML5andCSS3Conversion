@@ -100,10 +100,246 @@ textarea {
 	   line-height:18px; 
 	   color:#666666;
    }
-   .templete{width:1000px; margin:0 auto;}
-   .clear{overflow:hidden;}
+.templete{width:1000px; margin:0 auto;}
+.clear{overflow:hidden;}
+   
+.headersection{
+	background:#81201A;
+	height:120px;
+}
+.headleft {
+	float: left;
+	width: 310px;
+	margin-right: 50px;
+	margin-left: 20px;
+}
+.headleft h2 {
+	font-family: Georgia;
+	font-size: 32px;
+	color: #FFFFFF;
+	margin-top: 40px;
+	font-weight:normal;
+}
+.headleft p{color:#D2D2D2;}
+
+.mainmenu {
+	float: right;
+	width: 600px;
+	margin-right: 15px;
+	margin-top: 30px;
+}
+
+.mainmenu ul{margin:0; padding:0; list-style:none;}
+.mainmenu ul li{float:left; display:block;}
+.mainmenu ul li a {
+	color: #D2D2D2;
+	padding: 15px 10px 10px;
+	margin: 5ppx;
+	text-decoration: none;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	display:block;
+	border-top:2px solid transparent;
+}
+
+.mainmenu ul li a:hover, #active{border-top:2px solid #3E0D09; color:#3E0D09;}
+
+.mainmenu ul li a span {
+	font-family: arial;
+	color: #999999;
+	font-size: 12px;
+	text-transform: lowercase;
+	display: block;
+}
+
+.bannersection {
+	background: #3E0D09;
+	height: 300px;
+	position: relative;
+}
+.bannerleft{width:500px; margin-left:20px; margin-right:20px; float:left;}
+.bannerleft h1 {
+	font-family: Georgia;
+	font-size: 46px;
+	color: #fff;
+	font-weight: normal;
+	line-height: 48px;
+}
+.bannerleft p {
+	color: #fff;
+	font-size: 14px;
+	line-height: 22px;
+}
 
 
+.bannerright {
+	width: 420px;
+	margin-right: 20px;
+	float: right;
+	margin-top: 30px;
+}
+.bannerright img {
+	float: left;
+	margin-bottom: 8px;
+	margin-left: 8px;
+}
+.contentsection{background:#E4DFCB; height:340px;}
+.maincontent {
+	background: #FFFFFF;
+	width: 918px;
+	height: 355px;
+	margin: 0 auto;
+	position: absolute;
+	margin-top: -40px;
+	margin-left: 40px;
+}
+
+.samearticle {
+	width: 266px;
+	float: left;
+	padding: 20px;
+}
+.samearticle img{}
+.samearticle h2 {
+	font-family: Georgia;
+	font-size: 18px;
+	color: #660000;
+	border-bottom: 1px solid #B2B2B2;
+	padding-top: 5px;
+	margin-bottom: 5px;
+}
+.samearticle ul{margin: 0px;}
+.samearticle ul li {
+	padding-bottom: 5px;
+}
+.samearticle p {
+	margin: 0px;
+}
+.samearticle h4{}
+
+.footertop{background:#CEC6A2;}
+.contactsection {
+	width: 350px;
+	margin: 0 20px;
+	float: left;
+	margin-bottom: 25px;
+}
+.contactsection h2 {
+	font-family: Georgia;
+	font-size: 22px;
+	border-bottom: 1px solid #807C6A;
+	padding-bottom: 12px;
+	margin-bottom: 5px;
+	color: #333333;
+}
+.contactsection p {
+	margin-top: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+}
+.textinput {
+	float: left;
+	margin-right: 13px;
+}
+.contactsection input[type="text"] {
+	padding: 4px;
+	border: 1px solid #fff;
+	margin-right: 20px;
+	width: 158px;
+}
+.contactsection input[type="email"] {
+	padding: 4px;
+	border: 1px solid #fff;
+	width: 158px;
+}
+
+.contactsection textarea {
+	width: 350px;
+	height: 88px;
+	border: 1px solid #fff;
+}
+.contactsection input[type="submit"] {
+	background: #fff;
+	border: medium none;
+	padding: 8px 15px;
+	font-size: 14px;
+	margin-right:10px;
+}
+.contactsection input[type='reset']{
+	background: #fff;
+	border: medium none;
+	padding: 8px 15px;
+	font-size: 14px
+}
+
+.postsection {
+	width: 584px;
+	margin-right: 20px;
+	float: right;
+}
+.allpost{}
+.samepost {
+	width: 180px;
+	float: left;
+	margin-left: 14px;
+}
+.samepost h2 {
+	font-family: Georgia;
+	color: #333333;
+	font-size: 22px;
+	border-bottom: 1px solid #807C6A;
+	padding-bottom: 12px;
+	margin-bottom: 5px;
+	font-weight: normal;
+}
+.samepost p{}
+
+.subscribe{}
+.subscribe p {
+	width: 250px;
+	background: #fff;
+	float: left;
+	padding: 5px 10px;
+	margin-left: 16px;
+}
+.lastinput {
+	float: left;
+	width: 294px;
+}
+.lastinput input[type="text"] {
+	margin-left: 10px;
+	margin-top: 12px;
+	border: 1px solid #fff;
+	padding: 5px;
+	width: 237px;
+}
+.lastinput input[type="submit"] {
+	background: #fff;
+	border: 1px solid #fff;
+	padding: 5px;
+}
+.footsection{
+	background:#250705;
+}
+.footleft {
+	width: 600px;
+	float: left;
+	margin-left: 20px;
+}
+.footleft p{
+	padding: 8px 0px;
+}
+.footright {
+	width: 300px;
+	float: right;
+	margin-right: 20px;
+}
+.footright p {
+	padding: 8px 0px;
+	float:right;
+}
 
 
 
